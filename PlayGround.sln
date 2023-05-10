@@ -15,7 +15,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Rabbit", "Rabbit", "{1D32D8
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{B413D983-3F9B-46A9-8B83-89EBA3852FC2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageBus", "MessageBus\MessageBus.csproj", "{111792E4-7A39-419A-A4F6-269621424C00}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MessageBus", "MessageBus\MessageBus.csproj", "{111792E4-7A39-419A-A4F6-269621424C00}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Health Check", "Health Check", "{95DC58B0-A86E-4F36-9778-701A5446BF99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthCheck", "HealthCheck\HealthCheck.csproj", "{A6EFE981-0732-4E01-ADF4-3FF3D034214A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,6 +47,10 @@ Global
 		{111792E4-7A39-419A-A4F6-269621424C00}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{111792E4-7A39-419A-A4F6-269621424C00}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{111792E4-7A39-419A-A4F6-269621424C00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6EFE981-0732-4E01-ADF4-3FF3D034214A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6EFE981-0732-4E01-ADF4-3FF3D034214A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6EFE981-0732-4E01-ADF4-3FF3D034214A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6EFE981-0732-4E01-ADF4-3FF3D034214A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -50,6 +58,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{B413D983-3F9B-46A9-8B83-89EBA3852FC2} = {1D32D898-559B-4C9E-AF53-3ADD476A32C2}
 		{111792E4-7A39-419A-A4F6-269621424C00} = {B413D983-3F9B-46A9-8B83-89EBA3852FC2}
+		{A6EFE981-0732-4E01-ADF4-3FF3D034214A} = {95DC58B0-A86E-4F36-9778-701A5446BF99}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2026F78C-2C3E-4604-B75E-7E854CD94CB3}
